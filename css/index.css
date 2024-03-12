@@ -18,7 +18,7 @@ body {
   font-size: 30px;
 }
 
-.machine-left{
+.machine-manu{
   background-color: white;
   padding: 30px 27px 27px;
   width: 440px;
@@ -64,9 +64,18 @@ body {
   transform: translateY(1px)
 }
 
+.caculate {
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .input-money {
   margin-top: 12px;
   margin-bottom: 12px;
+  margin-right: 12px;
   display: block;
   width: 200px;
   height: 32px;
