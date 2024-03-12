@@ -1,0 +1,61 @@
+:root{
+  --main-bg-color:#e5ded1;
+  --main-point-color:#857357;
+}
+
+body {
+  background-color: var(--main-bg-color);
+}
+
+.logo object {
+  display: block;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.machine-left{
+  background-color: white;
+  padding: 30px 27px 27px;
+}
+
+.coffee {
+  margin-bottom: 12px;
+  margin-left: 4px;
+  /* 파그마상 간격이12px인데 양옆 박스쉐도우 총 8px고려 */
+  display: inline-block;
+  width: 94px;
+  height: 130px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+  border: 3px solid transparent;
+  border-radius: 10px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.price-button {
+  width: 70px;
+  text-align: center;
+  background: var(--main-point-color);
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 12px;
+  color: white;
+  border: none;
+  padding: 5px;
+  line-height: 100%;
+  cursor: pointer;
+}
+
+.btn-copy{
+  width: 150px;
+  text-align: center;
+  background: var(--main-point-color);
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 12px;
+  color: white;
+  border: none;
+  padding: 5px;
+  line-height: 100%;
+  cursor: pointer;
+}
