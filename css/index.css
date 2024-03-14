@@ -22,7 +22,7 @@ body {
   background-color: white;
   padding: 30px 27px 27px;
   width: 440px;
-  height: 450px;
+  height: 700px;
   margin-top: 30px;
   margin-bottom: 30px;
   margin-left: auto;
@@ -70,6 +70,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .input-money {
@@ -87,12 +88,10 @@ body {
   box-sizing: border-box;
   border-radius: 5px;
   padding: 6px;
-  float: left;
 }
 
 .input-button {
   margin-bottom: 12px;
-  float: right;
   width: 94px;
   height: 32px;
   background: #FFFFFF;
@@ -126,6 +125,49 @@ body {
   border-radius: 5px;
   border: none;
   justify-content: space-between;
+  align-items: center;
+}
+
+.left-money-value {
+  display: inline;
+}
+
+.return {
+  margin-bottom: 12px;
+  width: 94px;
+  height: 32px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.get-list-box {
+  background-color: var(--main-bg-color);
+  width: 200px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.get {
+  width: 94px;
+  padding: 43px 35px 44px;
+  background: var(--main-point-color);
+  border-radius: 5px;
+  border: none;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 19px;
+  color: white;
+  float: right;
+  text-align: center;
+  box-sizing: border-box;
+  cursor: pointer;
 }
 
 .btn-copy{
@@ -151,4 +193,17 @@ body {
 .btn-copy:active {
   box-shadow: 0 2px 0 var(--main-bg-color);
   transform: translateY(1px)
+}
+
+
+.my-coffee {
+  background-color: white;
+  padding: 30px 27px 27px;
+  width: 440px;
+  height: 700px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
 }

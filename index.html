@@ -29,9 +29,12 @@
 </head>
 <body>
   <header class="logo">
-    <object data="./img/Logo.svg" type=""></object>
+    <object data="./img/Logo.svg" type="">로고</object>
     <h1 class="logoname">coffee</h1>
   </header>
+
+<section class="money-box">
+  <span class="money">소지금: <span class="value">10000원</span></span>
 
 <section class="machine-manu">
   <ul class="manu">
@@ -78,18 +81,57 @@
   </ul>
 
     <section class="caculate">
-      <input type="int" placeholder="입금하실 금액을 입력하세요." class="input-money">
+      <input type="number" placeholder="입금하실 금액을 입력하세요." class="input-money">
       <button class="input-button">입금하기</button>
-
       <span class="left-money-text">잔액 :</span>
       <span class="left-money-value">1000원</span>
       <button class="return">반환하기</button>
+
+      <ul class="get-list-box">
+        <li class="get-list">
+            <img src="img/아메리카노.png" alt="아메리카노"
+            class="mini"> <p class="coffee-text">americano</p>
+            <div class="count">1</div>
+        </li>
+        <li class="get-list">
+            <img src="img/카페라떼.png" alt="카페라떼"
+            class="mini"> <p class="coffee-text">cafelatte</p>
+            <div class="count">2</div>
+        </li>
+    </ul>
+    <button class="get">획득</button>
     </section>
+</section>
+
+<section class="my-coffee">
+  <h2>획득한 음료</h2>
+  <ul class="get-coffee-box">
+      <li class="get-list">
+          <img src="img/아메리카노.png" alt="아메리카노"
+          class="mini"> <p class="coffee-text">아메리카노</p>
+          <div class="count">1</div>
+      </li>
+      <li class="get-list">
+           <img src="img/카페라떼.png" alt="카페라떼"
+          class="mini"> <p class="coffee-text">카페라떼</p>
+          <div class="count">2</div>
+      </li>
+      <li class="get-list">
+          <img src="img/바닐라라떼.png" alt="바닐라라떼"
+          class="mini"> <p class="coffee-text">바닐라라떼</p>
+          <div class="count">1</div>
+      </li>
+      <li class="get-list">
+          <img src="img/딸기라떼.png" alt="딸기라떼"
+          class="mini"><p class="coffee-text">딸기라떼</p>
+          <div class="count">5</div>
+      </li>
+  </ul>
+  <p class="total">총금액 : 9,000 원</p>
 </section>
 
   <div class="btn-copy share-or-copy">
     자판기 소문내기!
-  </div>
   </div>
 </body>
 </html>
